@@ -1,0 +1,22 @@
+{
+  "name": "rate-limiter-apis",
+  "version": "1.0.0",
+  "description": "API rate limiter middleware that limits each IP address to 10 requests per 5 minutes",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node src/app.js"
+  },
+  "keywords": [
+    "rate-limiter",
+    "express",
+    "middleware",
+    "api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.2.1"
+  }
+}
