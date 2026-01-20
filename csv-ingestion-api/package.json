@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "csv-parser": "^3.2.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "express-validator": "^7.3.1",
+    "multer": "^2.0.2",
+    "mysql2": "^3.16.0"
+  },
+  "scripts": {
+    "start" : "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
+ 
